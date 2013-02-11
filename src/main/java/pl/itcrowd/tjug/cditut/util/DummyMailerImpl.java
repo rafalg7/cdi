@@ -16,8 +16,8 @@ public class DummyMailerImpl implements Mailer{
     private static final Logger LOGGER = Logger.getLogger(DummyMailerImpl.class.getCanonicalName());
 
     @Override
-    public void sendMailToUser(User user, String message)
+    public void sendMailToUser(User user)
     {
-        LOGGER.info("Should send mail to "+user.getName()+": "+message);
+        LOGGER.info("Should send mail to "+user.getName());
     }
 }

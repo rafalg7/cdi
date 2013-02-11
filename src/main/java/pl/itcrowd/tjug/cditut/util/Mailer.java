@@ -8,5 +8,5 @@ import pl.itcrowd.tjug.cditut.domain.User;
  */
 
 public interface Mailer {
-    void sendMailToUser(User u, String message);
+    void sendMailToUser(User u);
 }

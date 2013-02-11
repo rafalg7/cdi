@@ -1,9 +1,11 @@
 package pl.itcrowd.tjug.cditut.util;
 
 import pl.itcrowd.tjug.cditut.domain.User;
+import pl.itcrowd.tjug.cditut.services.util.RandomGreeting;
 
 import javax.ejb.Stateless;
 import javax.enterprise.inject.Alternative;
+import javax.enterprise.inject.New;
 import java.util.logging.Logger;
 
 /**
@@ -15,8 +17,8 @@ public class RealMailerImpl implements Mailer{
 
     private static final Logger LOGGER = Logger.getLogger(RealMailerImpl.class.getCanonicalName());
 
-    public void sendMailToUser(User user, String message){
-        LOGGER.info("Sending REAL mail to user "+user.getName()+": "+message);
+    public void sendMailToUser(User user){
+        LOGGER.info("Sending REAL mail to user "+user.getName());
     }
 
 }

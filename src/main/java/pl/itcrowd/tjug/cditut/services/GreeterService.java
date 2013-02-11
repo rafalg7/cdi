@@ -2,6 +2,7 @@ package pl.itcrowd.tjug.cditut.services;
 
 import pl.itcrowd.tjug.cditut.dao.UserRepository;
 import pl.itcrowd.tjug.cditut.domain.User;
+import pl.itcrowd.tjug.cditut.services.util.RandomGreeting;
 import pl.itcrowd.tjug.cditut.util.Dummy;
 import pl.itcrowd.tjug.cditut.util.Mailer;
 
@@ -31,8 +32,9 @@ public class GreeterService {
     public void greetAllUsers(){
         List<User> userList = userRepository.getAllUsers();
         LOGGER.info("Greeter service will send greetings to "+userList.size()+" users.");
+
         for(User user : userList){
-            mailer.sendMailToUser(user,"Hello "+user.getName());
+            mailer.sendMailToUser(user);
         }
     }
 }
