@@ -2,6 +2,7 @@ package pl.itcrowd.tjug.cditut.services;
 
 import pl.itcrowd.tjug.cditut.dao.UserRepository;
 import pl.itcrowd.tjug.cditut.domain.User;
+import pl.itcrowd.tjug.cditut.util.Dummy;
 import pl.itcrowd.tjug.cditut.util.Mailer;
 
 import javax.ejb.Asynchronous;
@@ -19,7 +20,7 @@ public class GreeterService {
 
     private static final Logger LOGGER = Logger.getLogger(GreeterService.class.getCanonicalName());
 
-    @Inject
+    @Inject @Dummy
     private Mailer mailer;
 
     @Inject

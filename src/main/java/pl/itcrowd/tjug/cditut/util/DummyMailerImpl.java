@@ -9,11 +9,12 @@ import java.util.logging.Logger;
  * Date: 2/11/13 Time: 1:12 PM
  */
 
-public class DummyMailerImpl {//implements Mailer{
+@Dummy
+public class DummyMailerImpl implements Mailer{
 
     private static final Logger LOGGER = Logger.getLogger(DummyMailerImpl.class.getCanonicalName());
 
-//    @Override
+    @Override
     public void sendMailToUser(User user, String message)
     {
         LOGGER.info("Should send mail to "+user.getName()+": "+message);
