@@ -2,6 +2,7 @@ package pl.itcrowd.tjug.cditut.view;
 
 import pl.itcrowd.tjug.cditut.dao.UserRepository;
 import pl.itcrowd.tjug.cditut.domain.User;
+import pl.itcrowd.tjug.cditut.services.GreeterService;
 
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
@@ -23,6 +24,9 @@ public class UserView {
     @Inject
     private UserRepository userRepository;
 
+    @Inject
+    private GreeterService greeterService;
+
     public UserView()
     {
     }
@@ -33,5 +37,9 @@ public class UserView {
             users = userRepository.getAllUsers();
         }
         return users;
+    }
+
+    public void greetAllUsers(){
+        greeterService.greetAllUsers();
     }
 }

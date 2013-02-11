@@ -24,6 +24,10 @@
             #{user.name}
         </h:column>
     </h:dataTable>
+
+    <h:form>
+        <h:commandButton value="Greet all users!" actionListener="#{userView.greetAllUsers}"/>
+    </h:form>
 </h:body>
 
 </html>

@@ -2,22 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b56eaa22-0981-492c-92b4-c821e502cefe" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/DummyMailerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/services/GreeterService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Mailer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/RealMailerImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserView.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/users.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/users.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cdi-tut.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360582541652" ignored="false" />
+    <file path="/Dummy.txt" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360585466041" ignored="false" />
     <file path="/pom.xml" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360579619492" ignored="false" />
     <file path="/web.xml" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360579475718" ignored="false" />
     <file path="dbtable:/204da8d0/1835863b-3e86-4b9f-9cab-8958b49fb665/test.public.company" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360579681473" ignored="false" />
     <file path="/User.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360581917469" ignored="false" />
     <file path="/UserRepository.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360582115358" ignored="false" />
-    <file path="/UserView.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360583476835" ignored="false" />
+    <file path="/UserView.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360585313096" ignored="false" />
     <file path="/Starter.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360582830507" ignored="false" />
     <file path="/Gateway.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360582698837" ignored="false" />
     <file path="/persistence.xml" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360582963802" ignored="false" />
-    <file path="/users.xhtml" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360583107613" ignored="false" />
+    <file path="/users.xhtml" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360585351410" ignored="false" />
     <file path="/.gitignore" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360583419277" ignored="false" />
+    <file path="/RealMailerImpl.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360585000946" ignored="false" />
+    <file path="/Mailer.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360585059769" ignored="false" />
+    <file path="/DummyMailerImpl.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360585015691" ignored="false" />
+    <file path="/GreeterService.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360585289123" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +95,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserView.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UserView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="131" selection-end="131" vertical-scroll-proportion="0.13043478">
+            <state line="42" column="39" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GreeterService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/services/GreeterService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="57" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DummyMailerImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/DummyMailerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="83" selection-start="182" selection-end="182" vertical-scroll-proportion="0.34246576">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mailer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Mailer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="46" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RealMailerImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/RealMailerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="28" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,7 +151,7 @@
       <file leaf-file-name="Starter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Starter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="50" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
+            <state line="27" column="5" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,7 +162,7 @@
       <file leaf-file-name="users.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/users.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="54" selection-start="85" selection-end="85" vertical-scroll-proportion="-1.875">
+            <state line="28" column="94" selection-start="708" selection-end="708" vertical-scroll-proportion="-12.875">
               <folding />
             </state>
           </provider>
@@ -117,7 +171,7 @@
       <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="5" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
+            <state line="18" column="34" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,10 +204,14 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Starter.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/users.xhtml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Gateway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Mailer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/services/GreeterService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserView.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/users.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/RealMailerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/DummyMailerImpl.java" />
       </list>
     </option>
   </component>
@@ -501,6 +559,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cdi-tut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cdi-tut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="itcrowd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tjug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cditut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -542,6 +642,10 @@
               <option name="myItemId" value="cditut" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -549,10 +653,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ejb-tut" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -683,6 +789,7 @@
             </option>
             <option name="goals">
               <list>
+                <option value="org.jboss.as.plugins:jboss-as-maven-plugin:7.1.1.Final:undeploy" />
                 <option value="clean" />
                 <option value="package" />
                 <option value="org.jboss.as.plugins:jboss-as-maven-plugin:7.1.1.Final:deploy" />
@@ -750,7 +857,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1602" height="873" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -769,11 +876,11 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947233" sideWeight="0.6707989" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.6707989" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24646075" sideWeight="0.6707989" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292011" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292011" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -888,18 +995,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Starter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="50" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
+        <state line="18" column="34" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Starter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
+        <state line="27" column="5" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Mailer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="46" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/services/GreeterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="57" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="39" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -908,15 +1040,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/users.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="54" selection-start="85" selection-end="85" vertical-scroll-proportion="-1.875">
+        <state line="28" column="94" selection-start="708" selection-end="708" vertical-scroll-proportion="-12.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/RealMailerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="131" selection-end="131" vertical-scroll-proportion="0.13043478">
-          <folding />
+        <state line="11" column="28" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/DummyMailerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="83" selection-start="182" selection-end="182" vertical-scroll-proportion="0.34246576">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
