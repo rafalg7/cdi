@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cdi-tut:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="cdi-tut.war">
+      <element id="artifact" artifact-name="cdi-tut:war exploded" />
+    </root>
+  </artifact>
+</component>
