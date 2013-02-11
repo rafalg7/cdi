@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b56eaa22-0981-492c-92b4-c821e502cefe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Gateway.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Starter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/dao/UserRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/cdi_tut_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/cdi_tut_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/users.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserView.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserView.java" />
     </list>
     <ignored path="cdi-tut.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +12,12 @@
     <file path="dbtable:/204da8d0/1835863b-3e86-4b9f-9cab-8958b49fb665/test.public.company" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360579681473" ignored="false" />
     <file path="/User.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360581917469" ignored="false" />
     <file path="/UserRepository.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360582115358" ignored="false" />
-    <file path="/UserView.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360582784060" ignored="false" />
+    <file path="/UserView.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360583476835" ignored="false" />
     <file path="/Starter.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360582830507" ignored="false" />
     <file path="/Gateway.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360582698837" ignored="false" />
     <file path="/persistence.xml" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360582963802" ignored="false" />
     <file path="/users.xhtml" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360583107613" ignored="false" />
+    <file path="/.gitignore" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360583419277" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,10 +85,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserView.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="UserView.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="5" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
+            <state line="4" column="33" selection-start="131" selection-end="131" vertical-scroll-proportion="0.13043478">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Starter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Starter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="50" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,19 +105,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.xhtml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="users.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/users.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="31" selection-start="580" selection-end="580" vertical-scroll-proportion="0.82568806">
+            <state line="3" column="54" selection-start="85" selection-end="85" vertical-scroll-proportion="-1.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gateway.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Gateway.java">
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="40" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
+            <state line="27" column="5" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,12 +147,13 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/dao/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Gateway.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Starter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserView.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/users.xhtml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Gateway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserView.java" />
       </list>
     </option>
   </component>
@@ -858,15 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Gateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="40" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/dao/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="70" selection-start="794" selection-end="794" vertical-scroll-proportion="0.9347826">
@@ -883,33 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="500" selection-end="500" vertical-scroll-proportion="0.41304347">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Starter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="50" selection-start="622" selection-end="622" vertical-scroll-proportion="0.75">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="5" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="29" selection-start="779" selection-end="779" vertical-scroll-proportion="0.40268457">
@@ -917,9 +881,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Starter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="50" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="5" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/users.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="31" selection-start="580" selection-end="580" vertical-scroll-proportion="0.82568806">
+        <state line="3" column="54" selection-start="85" selection-end="85" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="33" selection-start="131" selection-end="131" vertical-scroll-proportion="0.13043478">
           <folding />
         </state>
       </provider>
