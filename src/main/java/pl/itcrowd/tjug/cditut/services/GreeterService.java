@@ -7,6 +7,7 @@ import pl.itcrowd.tjug.cditut.util.Mailer;
 
 import javax.ejb.Asynchronous;
 import javax.ejb.Stateless;
+import javax.enterprise.inject.Any;
 import javax.inject.Inject;
 import java.util.List;
 import java.util.logging.Logger;
@@ -20,7 +21,7 @@ public class GreeterService {
 
     private static final Logger LOGGER = Logger.getLogger(GreeterService.class.getCanonicalName());
 
-    @Inject @Dummy
+    @Inject
     private Mailer mailer;
 
     @Inject
