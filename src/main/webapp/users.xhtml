@@ -19,31 +19,45 @@
     <h1>Hi #{ null==currentUser ? "unlogged" : currentUser.name.concat(" with role:").concat(currentUser.role)}!</h1>
 
     <h:form>
-    <h:dataTable value="#{userListView.users}" var="user">
-        <h1>#{randomGreeting}</h1>
-        <h:column>
-            #{user.id}
-        </h:column>
-        <h:column>
-            #{user.name}
-        </h:column>
-        <h:column>
-            #{user.role}
-        </h:column>
-        <h:column>
-            <h:commandButton value="Select" action="#{userListView.selectUser(user)}"/>
-            <h:commandButton value="Remove" action="#{userListView.removeUser(user)}"/>
-        </h:column>
-    </h:dataTable>
+        <h:dataTable value="#{userListView.users}" var="user">
+            <h1>#{randomGreeting}</h1>
+            <h:column>
+                #{user.id}
+            </h:column>
+            <h:column>
+                #{user.name}
+            </h:column>
+            <h:column>
+                #{user.role}
+            </h:column>
+            <h:column>
+                <h:commandButton value="Select" action="#{userListView.selectUser(user)}"/>
+                <h:commandButton value="Remove" action="#{userListView.removeUser(user)}"/>
+            </h:column>
+        </h:dataTable>
 
-
-        <h:commandButton value="Greet all users!" actionListener="#{userListView.greetAllUsers}"/>
+        <h:outputText value="Selected user: #{userDetailsView.user.name}"/>
+        <br/>
+        <h:commandButton value="Greet all users!" actionListener="#{userListView.greetAllUsers}" immediate="true"/>
+        <br/><br/>
         <h:commandButton value="Login as Max" action="#{loggedManager.login}"/>
         <h:commandButton rendered="#{loggedManager.logged}" value="Logout" action="#{loggedManager.logout}"/>
-        <h:link outcome="admin" value="Admin page!"/>
+        <br/>
+        <h:link outcome="admin" value="Admin page!"/> <br/>
+        <br/>
     </h:form>
 
-    <h:outputText value="Selected user: #{userDetailsView.user.name}"/>
+    <h2>User details</h2>
+    <h:form>
+        <h:panelGrid columns="2">
+            <h:outputText value="User name:"/>
+            <h:inputText value="#{userDetailsView.user.name}"/>
+            <h:commandButton value="save" action="#{userDetailsView.save}"/>
+            <h:commandButton value="new" action="#{userDetailsView.newUser}" immediate="true"/>
+        </h:panelGrid>
+    </h:form>
+
 </h:body>
+
 
 </html>
