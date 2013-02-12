@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b56eaa22-0981-492c-92b4-c821e502cefe" name="Default" comment="Editing users.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/Saved.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserDetailsView.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserDetailsView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/dao/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/dao/UserRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cdi-tut.iml" afterPath="$PROJECT_DIR$/cdi-tut.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/users.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/users.xhtml" />
+    <list default="true" id="b56eaa22-0981-492c-92b4-c821e502cefe" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cdi-tut.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360696654538" ignored="false" />
+    <file path="/Dummy.txt" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360696685770" ignored="false" />
     <file path="/pom.xml" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360579619492" ignored="false" />
     <file path="/web.xml" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360579475718" ignored="false" />
     <file path="dbtable:/204da8d0/1835863b-3e86-4b9f-9cab-8958b49fb665/test.public.company" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360579681473" ignored="false" />
@@ -106,39 +102,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="users.xhtml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="users.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/users.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="11" selection-start="411" selection-end="411" vertical-scroll-proportion="0.21481481">
+            <state line="18" column="11" selection-start="411" selection-end="411" vertical-scroll-proportion="3.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRepository.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/dao/UserRepository.java">
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="69" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDetailsView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserDetailsView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="26" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserListView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserListView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="34" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0">
+            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/UserRole.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Starter.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/CurrentUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/User.java" />
@@ -179,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserDetailsView.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/users.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/dao/UserRepository.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -901,7 +877,11 @@
       <created>1360682665214</created>
       <updated>1360682665214</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Editing users.">
+      <created>1360696723443</created>
+      <updated>1360696723443</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1001,13 +981,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/Dummy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="43" selection-start="488" selection-end="576" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/Real.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="18" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
@@ -1118,7 +1091,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/users.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="11" selection-start="411" selection-end="411" vertical-scroll-proportion="0.21481481">
+        <state line="18" column="11" selection-start="411" selection-end="411" vertical-scroll-proportion="3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
