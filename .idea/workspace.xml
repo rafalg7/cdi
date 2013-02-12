@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b56eaa22-0981-492c-92b4-c821e502cefe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/AdminStuffView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/CurrentUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/SecurityException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/interceptors/SecurityInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/UserRole.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/admin.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/services/LoggedManager.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/services/LoggedManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Starter.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Starter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/User.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserDetailsView.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserDetailsView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/dao/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/dao/UserRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cdi-tut.iml" afterPath="$PROJECT_DIR$/cdi-tut.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/users.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/users.xhtml" />
+    <list default="true" id="b56eaa22-0981-492c-92b4-c821e502cefe" name="Default" comment="added unversioned file.&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/SecuredReqBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserListView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/AdminStuffView.java" afterPath="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/AdminStuffView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cdi-tut.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360678390669" ignored="false" />
+    <file path="/Dummy.txt" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360682601719" ignored="false" />
     <file path="/pom.xml" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360579619492" ignored="false" />
     <file path="/web.xml" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360579475718" ignored="false" />
     <file path="dbtable:/204da8d0/1835863b-3e86-4b9f-9cab-8958b49fb665/test.public.company" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360579681473" ignored="false" />
@@ -52,9 +41,10 @@
     <file path="/SecurityInterceptor.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360675825337" ignored="false" />
     <file path="/UserRole.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360672024268" ignored="false" />
     <file path="/UserDetailsView.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360673788473" ignored="false" />
-    <file path="/AdminStuffView.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360674596943" ignored="false" />
+    <file path="/AdminStuffView.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360682004401" ignored="false" />
     <file path="/admin.xhtml" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360675464911" ignored="false" />
     <file path="/SecurityException.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360675081508" ignored="false" />
+    <file path="/SecuredReqBean.java" changelist="b56eaa22-0981-492c-92b4-c821e502cefe" time="1360681686126" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,37 +103,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserListView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserListView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="11" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="User.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="24" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
+            <state line="27" column="24" selection-start="554" selection-end="554" vertical-scroll-proportion="0.44313148">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRepository.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/dao/UserRepository.java">
+      <file leaf-file-name="beans.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="128" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityInterceptor.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/interceptors/SecurityInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="17" selection-start="987" selection-end="987" vertical-scroll-proportion="0.7185741">
+            <state line="13" column="25" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,7 +124,7 @@
       <file leaf-file-name="AdminStuffView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/AdminStuffView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="10" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
+            <state line="16" column="13" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,10 +132,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/users.xhtml">
+      <file leaf-file-name="SecuredReqBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/SecuredReqBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="56" selection-start="1287" selection-end="1287" vertical-scroll-proportion="-13.083333">
+            <state line="26" column="30" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Removed.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/Removed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="307" selection-end="443" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dummy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/Dummy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="43" selection-start="488" selection-end="576" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Real.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/Real.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="18" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -181,16 +184,7 @@
       <file leaf-file-name="Admin.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/interceptors/Admin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="29" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="4" selection-start="442" selection-end="442" vertical-scroll-proportion="-12.5">
+            <state line="14" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -215,22 +209,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/Secured.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/interceptors/Admin.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/UserRole.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Starter.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserDetailsView.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/CurrentUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/dao/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/AdminStuffView.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserListView.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/SecurityException.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/interceptors/SecurityInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/users.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/services/LoggedManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/SecuredReqBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/interceptors/Admin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/AdminStuffView.java" />
       </list>
     </option>
   </component>
@@ -949,12 +943,16 @@
       <created>1360670237858</created>
       <updated>1360670237858</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Simple security interceptor.&#10;">
+      <created>1360678441972</created>
+      <updated>1360678441972</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1602" height="873" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -968,21 +966,21 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.8016529" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23230374" sideWeight="0.8016529" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1983471" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23230374" sideWeight="0.6721763" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1983471" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1024,7 +1022,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simple security interceptor.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added unversioned file.&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1040,76 +1038,12 @@
     <MESSAGE value="@Named and @Produces" />
     <MESSAGE value="Events and Observers&#10;" />
     <MESSAGE value="Simple security interceptor.&#10;" />
+    <MESSAGE value="added unversioned file.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/Starter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.06437768">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserDetailsView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="7" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/Dummy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="43" selection-start="488" selection-end="576" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/dao/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="128" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/SecurityException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="262" selection-end="262" vertical-scroll-proportion="0.503876">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/AdminStuffView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="10" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="11" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/admin.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="4" selection-start="442" selection-end="442" vertical-scroll-proportion="-12.5">
@@ -1140,13 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/interceptors/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="29" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="44" selection-start="742" selection-end="742" vertical-scroll-proportion="0.619137">
@@ -1156,7 +1083,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/interceptors/SecurityInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="17" selection-start="987" selection-end="987" vertical-scroll-proportion="0.7185741">
+        <state line="38" column="87" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.7467167">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/dao/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="128" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.66306305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="25" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/Dummy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="43" selection-start="488" selection-end="576" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/Real.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="18" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/Removed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="307" selection-end="443" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/interceptors/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/util/qualifiers/SecuredReqBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="30" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/AdminStuffView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/view/UserListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="34" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.4239291">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/itcrowd/tjug/cditut/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="24" selection-start="554" selection-end="554" vertical-scroll-proportion="0.44313148">
           <folding />
         </state>
       </provider>

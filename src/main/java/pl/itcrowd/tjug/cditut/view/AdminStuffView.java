@@ -1,6 +1,7 @@
 package pl.itcrowd.tjug.cditut.view;
 
 import pl.itcrowd.tjug.cditut.interceptors.Admin;
+import pl.itcrowd.tjug.cditut.util.qualifiers.SecuredReqBean;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
@@ -12,9 +13,7 @@ import java.io.Serializable;
  * Time: 2:07 PM
  */
 
-@Admin
-@Named
-@RequestScoped
+@SecuredReqBean
 public class AdminStuffView implements Serializable {
 
     public String getAdminNews(){
