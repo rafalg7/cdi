@@ -2,6 +2,7 @@ package pl.itcrowd.tjug.cditut.util;
 
 import pl.itcrowd.tjug.cditut.dao.UserRepository;
 import pl.itcrowd.tjug.cditut.domain.User;
+import pl.itcrowd.tjug.cditut.domain.UserRole;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.Singleton;
@@ -22,9 +23,10 @@ public class Starter {
 
     @PostConstruct
     private void onCreate(){
-        userRepository.saveUser(new User("John"));
-        userRepository.saveUser(new User("Mark"));
-        userRepository.saveUser(new User("Anna"));
+        userRepository.saveUser(new User("John", UserRole.CLIENT));
+        userRepository.saveUser(new User("Mark", UserRole.CLIENT));
+        userRepository.saveUser(new User("Max", UserRole.ADMIN));
+        userRepository.saveUser(new User("Anna", UserRole.CLIENT));
     }
 
 }

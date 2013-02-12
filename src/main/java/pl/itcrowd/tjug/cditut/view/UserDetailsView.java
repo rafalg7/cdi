@@ -1,6 +1,7 @@
 package pl.itcrowd.tjug.cditut.view;
 
 import pl.itcrowd.tjug.cditut.domain.User;
+import pl.itcrowd.tjug.cditut.interceptors.Admin;
 import pl.itcrowd.tjug.cditut.util.qualifiers.Selected;
 
 import javax.enterprise.context.SessionScoped;

@@ -16,7 +16,7 @@
 </h:head>
 
 <h:body>
-    <h1>Hi #{ null==currentUser ? "unlogged" : currentUser.name}!</h1>
+    <h1>Hi #{ null==currentUser ? "unlogged" : currentUser.name.concat(" with role:").concat(currentUser.role)}!</h1>
 
     <h:form>
     <h:dataTable value="#{userListView.users}" var="user">
@@ -28,6 +28,9 @@
             #{user.name}
         </h:column>
         <h:column>
+            #{user.role}
+        </h:column>
+        <h:column>
             <h:commandButton value="Select" action="#{userListView.selectUser(user)}"/>
             <h:commandButton value="Remove" action="#{userListView.removeUser(user)}"/>
         </h:column>
@@ -36,6 +39,8 @@
 
         <h:commandButton value="Greet all users!" actionListener="#{userListView.greetAllUsers}"/>
         <h:commandButton value="Login as Max" action="#{loggedManager.login}"/>
+        <h:commandButton rendered="#{loggedManager.logged}" value="Logout" action="#{loggedManager.logout}"/>
+        <h:link outcome="admin" value="Admin page!"/>
     </h:form>
 
     <h:outputText value="Selected user: #{userDetailsView.user.name}"/>
