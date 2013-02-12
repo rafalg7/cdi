@@ -1,7 +1,6 @@
 package pl.itcrowd.tjug.cditut.util;
 
 import pl.itcrowd.tjug.cditut.domain.User;
-import pl.itcrowd.tjug.cditut.services.util.RandomGreeting;
 
 import javax.ejb.Stateless;
 import javax.enterprise.inject.Alternative;

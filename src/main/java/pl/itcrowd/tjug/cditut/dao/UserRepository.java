@@ -1,8 +1,10 @@
 package pl.itcrowd.tjug.cditut.dao;
 
 import pl.itcrowd.tjug.cditut.domain.User;
+import pl.itcrowd.tjug.cditut.util.qualifiers.Removed;
 
 import javax.ejb.Stateless;
+import javax.enterprise.event.Observes;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.util.List;
@@ -33,6 +35,11 @@ public class UserRepository {
 
     public List<User> getAllUsers(){
         return em.createQuery("SELECT u FROM User u").getResultList();
+    }
+
+    public void removeUser(@Observes @Removed User user){
+        User found = em.find(User.class, user.getId());
+        em.remove(found);
     }
 
 }
