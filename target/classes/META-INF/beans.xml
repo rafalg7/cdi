@@ -7,4 +7,8 @@
         <class>pl.itcrowd.tjug.cditut.util.DummyMailerImpl</class>
     </alternatives>
 
+    <interceptors>
+        <class>pl.itcrowd.tjug.cditut.interceptors.SecurityInterceptor</class>
+    </interceptors>
+
 </beans>

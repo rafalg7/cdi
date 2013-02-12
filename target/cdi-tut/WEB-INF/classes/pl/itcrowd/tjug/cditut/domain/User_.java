@@ -8,6 +8,7 @@ public abstract class User_ {
 
 	public static volatile SingularAttribute<User, Long> id;
 	public static volatile SingularAttribute<User, String> name;
+	public static volatile SingularAttribute<User, UserRole> role;
 
 }
 
